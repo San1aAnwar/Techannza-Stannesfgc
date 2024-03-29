@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+h3{
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+@media (max-width:767px){
+    h1{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    
+    h2{
+        font-size: 20px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    
+    h3{
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1;
+    }
+    
+    p{
+        font-size: 14px !important;
+        font-weight: 500;
+        line-height: 1.5;
+    }
+}
+
+body {
+    background: linear-gradient(to right, #0e0858, #000000);
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.main {
+    margin-top: -70px;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 22;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav .logo {
+    width: 100px;
+    height: auto;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    background-color: #a333ff;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    position: relative;
+    display: block;
+}
+
+.hero-content {
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+
+.hero-content h4 {
+    opacity: 0;
+    color: rgb(210, 69, 252);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.hero-content span {
+    font-size: 90px;
+    font-weight:800;
+}
+
+.links {
+    margin-top: 30px;
+    opacity: 0;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.links a:hover {
+    color: #ffffff;
+}
+
+.center {
+    animation: slideleft 1s linear forwards;
+    animation-delay: 1s;
+
+}
+
+@keyframes slideleft {
+    0% {
+        transform: translate(-100px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(0px);
+        opacity: 1;
+    }
+}
+
+p.left {
+    animation-delay: 2s;
+}
+
+.links.left {
+    animation-delay: 3s;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+div#abouts-section {
+    background: linear-gradient(to right, #080015, #080017);
+}
+
+.about-us-text p{
+    text-align: center;
+}
+
+.about-us-text h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+*/
+/* This is the events section */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.eventsname h2 {
+    text-align: center;
+    text-shadow: 0 0 5px #fff, 0 0 0px #fff, 0 0 0px #fff, 0 0 40px #6b186b, 0 0 80px #6b186b, 0 0 90px #6b186b, 0 0 100px #030036, 0 0 150px #030036;
+    margin-bottom: 50px;
+}
+
+/* Event one poster making*/
+
+.event-container {
+    background-image: url('../bgmini.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.event-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.event-container-alternate {
+    background: linear-gradient(to right, #080015, #080017);
+    background-size: cover;
+    background-position: center;
+}
+
+.event-flex-alternate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    flex: 1;
+    /* Take remaining space */
+    padding: 0px;
+    color: aliceblue;
+    text-align: left;
+    margin-right: 50px;
+    bottom: 30px;
+}
+
+.text1 h2 {
+    margin-bottom: 12px;
+}
+
+.text1 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.image1 {
+    flex: 1;
+    /* Take remaining space */
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.image1 img {
+    max-width: 40%;
+
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid #f48bf4;
+    border-radius: 20px;
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+}
+
+
+.landingbutton {
+    padding: 10px 20px;
+    border: 2px solid #f48bf4;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.landingbutton:hover {
+    background-color: purple;
+    color: white;
+}
+
+/* Event two coding and debugging*/
+
+.text2 {
+    flex: 1;
+    /* Take remaining space */
+    padding: 0px;
+    color: aliceblue;
+    text-align: left;
+    margin-left: 80px;
+    bottom: 30px;
+}
+
+.text2 h2 {
+    margin-bottom: 12px;
+}
+
+.text2 p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+.image2 {
+    flex: 1;
+    /* Take remaining space */
+    padding: 10px;
+    text-align: center;
+    margin-top: 0px;
+
+}
+
+.image2 img {
+    max-width: 50%;
+
+}
+
+.button {
+    padding: 10px 20px;
+    border: 2px solid #f48bf4;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: purple;
+    color: white;
+}
+
+.download-button {
+    background-color: #59137f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.event-coordinator h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*countdown section */
+
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+@media (max-width:767px){
+    .contact-info{
+        flex-direction: column;
+    }
+}
+
+.countdown-container {
+    background-image: url('../countdownbg.png');
+    background-size: cover;
+    background-position: center;
+    /* Adjust padding as needed */
+    color: aliceblue;
+    text-align: center;
+}
+
+
+#countdown {
+    font-size: 100px;
+    margin-top: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.bottom {
+    color: #fff;
+    background-color: #130450;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    nav ul li {
+        margin-left: 0px;
+        /* Adjust spacing between navigation items */
+    }
+
+    /* Adjust logo size for smaller screens */
+    nav .logo {
+        width: 80px;
+    }
+}
+
+
+
+/* Responsive Content */
+@media screen and (max-width: 768px) {
+    .content {
+        padding: -30px;
+        /* Adjust padding */
+    }
+
+    /* Adjust text size for smaller screens */
+    .content h1 {
+        font-size: 50px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .content span {
+        font-size: 60px;
+    }
+}
+
+/* Responsive Event Containers */
+@media screen and (max-width: 768px) {
+
+    .event-container,
+    .event-container-alternate {
+        flex-direction: column;
+        /* Display items in a column for smaller screens */
+        height: auto;
+        /* Auto height */
+        padding: 30px 20px;
+        /* Adjust padding */
+    }
+
+    .text1,
+    .text2 {
+        margin: 20px 0;
+        /* Adjust margin */
+        text-align: center;
+        /* Center align text */
+    }
+
+    .image1,
+    .image2 {
+        margin: 20px 0;
+        /* Adjust margin */
+        text-align: center;
+        /* Center align image */
+    }
+
+    .image1 img,
+    .image2 img {
+        max-width: 80%;
+        /* Adjust image width */
+    }
+}
+
+/* Responsive Countdown Section */
+@media screen and (max-width: 768px) {
+    .countdown-container {
+        padding: 50px 20px;
+        /* Adjust padding */
+    }
+
+    #countdown {
+        font-size: 60px;
+        /* Adjust font size */
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .bottom {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767px){
+
+    .main{
+        margin-top: 0px;
+    }
+
+    .section{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .links{
+        margin-top: 0px;
+    }
+
+    nav ul li a{
+        font-size: 14px;
+        padding: 0 6px;
+    }
+
+    .download-button{
+        font-size: 14px; 
+        padding: 8px 10px;
+    }
+
+    .hero-content{
+        width: 100%;
+    }
+
+    .hero-content span{
+        font-size: 26px;
+    }
+
+    .button{
+        font-size: 14px;
+    }
+
+    .hero-content h4{
+        font-size: 16px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .landingbutton{
+        font-size: 14px;
+    }
+
+    .event-flex{
+        flex-direction: column;
+    }
+
+    .event-flex-alternate{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    }
+
+    .text1 h3, .text2 h3{
+        margin-bottom: 30px;
+    }
+
+    .image1 img, .image2 img{
+        max-width: 150px !important;
+    }
+}
