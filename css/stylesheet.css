@@ -412,7 +412,7 @@ div#abouts-section {
 }
 
 .countdown-container {
-    background-image: url('../countdownbg.png');
+    background-image: url('countdownbg.png');
     background-size: cover;
     background-position: center;
     /* Adjust padding as needed */
