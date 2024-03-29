@@ -52,7 +52,7 @@
     font-weight: 600;
 }
 .links a:hover{
-    color: #f66335;
+    color: #b214e7;
 }
 
 .center{
@@ -86,7 +86,7 @@
     display: flex; 
     align-items: center;
     justify-content: center;
-    background-image: url('bgev1.png');
+    background-image: url('bgev2.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -205,7 +205,8 @@
    
 }
 
-* CSS for desktop view */
+
+/* CSS for desktop view */
 .container3 img {
     width: 100%; 
     height: auto; 
@@ -221,6 +222,10 @@
         transform: translateX(-15%);
     }
 }
+
+
+
+
 
 
 
