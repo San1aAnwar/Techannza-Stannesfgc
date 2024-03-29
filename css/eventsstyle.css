@@ -205,6 +205,25 @@
    
 }
 
+* CSS for desktop view */
+.container3 img {
+    width: 100%; 
+    height: auto; 
+}
+
+/* CSS for mobile view */
+@media only screen and (max-width: 767px) {
+    .container3 img {
+        width: 150%;
+        margin: 0 auto; 
+        display: block; 
+        left: 50%;
+        transform: translateX(-15%);
+    }
+}
+
+
+
 /*countdown section */
 
 
