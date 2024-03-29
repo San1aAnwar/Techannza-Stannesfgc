@@ -150,11 +150,11 @@ nav ul li a:hover::after {
     color: rgb(210, 69, 252);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     margin-bottom: 15px;
-    font-size: 28px;
+    font-size: 35px;
 }
 
 .hero-content span {
-    font-size: 90px;
+    font-size: 95px;
     font-weight:800;
 }
 
@@ -211,7 +211,7 @@ div#abouts-section {
 }
 
 .about-us-text p{
-    text-align: center;
+    text-align: justify;
 }
 
 .about-us-text h2 {
@@ -562,7 +562,7 @@ div#abouts-section {
     }
 
     .button{
-        font-size: 14px;
+        font-size: 12px;
     }
 
     
