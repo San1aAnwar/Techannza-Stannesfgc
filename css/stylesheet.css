@@ -238,7 +238,7 @@ div#abouts-section {
 /* Event one poster making*/
 
 .event-container {
-    background-image: url('images/bgmini.jpg');
+    background-image: url('bgmini.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -412,7 +412,7 @@ div#abouts-section {
 }
 
 .countdown-container {
-    background-image: url('images/countdownbg.png');
+    background-image: url('countdownbg.png');
     background-size: cover;
     background-position: center;
     /* Adjust padding as needed */
