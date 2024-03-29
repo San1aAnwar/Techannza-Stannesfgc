@@ -238,7 +238,7 @@ div#abouts-section {
 /* Event one poster making*/
 
 .event-container {
-    background-image: url('bgmini.jpg');
+    background-image: url('images/bgmini.jpg');
     background-size: cover;
     background-position: center;
 }
