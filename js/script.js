@@ -1,6 +1,6 @@
 
 function downloadFile() {
-      window.location.href = 'https://drive.google.com/file/d/15rkEAbsFQoVup7Vd9AWryUZ5pa1OfqZ3/view?usp=sharing';
+      window.location.href = 'https://drive.google.com/file/d/13ONKtmFgeyej-FYAa5rqNNGWnINE1thm/view?usp=drive_link';
     }
 
 
